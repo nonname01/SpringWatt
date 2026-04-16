@@ -3,11 +3,27 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>崇維水電 SpringWatt｜專業水電工程・防水・燈光設計</title>
+
+        <title>崇維水電 SpringWatt｜恆春水電維修・冷氣、冷凍庫清洗安裝・淨水設備安裝</title>
+
+        <meta
+            name="keywords"
+            content="恆春水電, 恆春維修, 恆春冷氣安裝, 恆春冷氣清洗, 淨水器安裝, 崇維水電, 屏東水電行"
+        />
         <meta
             name="description"
-            content="提供水電工程、防水施工、燈具安裝與冷氣清潔服務，專業施工、品質穩定、值得信賴。"
+            content="恆春地區專業水電維修、冷氣冷凍庫清洗及淨水安裝。崇維水電 (SpringWatt) 提供穩定品質與施工服務，專業技術值得信賴，歡迎來電預約！"
         />
+        <meta property="og:title" content="恆春水電維修｜崇維水電 SpringWatt" />
+        <meta property="og:site_name" content="崇維水電 SpringWatt" />
+        <meta property="og:description" content="專業水電、冷氣清洗、淨水設備安裝，恆春在地優質施工。" />
+        <meta property="og:url" content="https://nonname01.github.io/SpringWatt/" />
+        <meta property="og:image" content="https://nonname01.github.io/SpringWatt/images/business_card.jpg" />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://nonname01.github.io/SpringWatt/" />
+
+        <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
         <link
             href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
             rel="stylesheet"
@@ -199,6 +215,7 @@
             .gallery-scroll {
                 display: flex;
                 overflow-x: auto;
+                overflow-y: hidden;
                 scroll-snap-type: x mandatory;
                 gap: 1rem;
                 padding-bottom: 1rem;
@@ -261,12 +278,58 @@
                 section {
                     padding-left: 1.25rem !important;
                     padding-right: 1.25rem !important;
+                    overflow-x: hidden;
                 }
                 .service-card {
                     padding: 1rem;
                 }
             }
         </style>
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "Electrician",
+                "name": "崇維水電 SpringWatt",
+                "description": "提供恆春地區專業水電維修、冷氣清洗、淨水設備安裝及老屋線路汰換服務。",
+                "image": "https://nonname01.github.io/SpringWatt/images/business_card.jpg",
+                "logo": "https://nonname01.github.io/SpringWatt/images/only_logo.svg",
+                "@id": "https://nonname01.github.io/SpringWatt/",
+                "url": "https://nonname01.github.io/SpringWatt/",
+                "telephone": "+886-906-375-675",
+                "priceRange": "$$",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "北門路110巷26弄6號",
+                    "addressLocality": "恆春鎮",
+                    "addressRegion": "屏東縣",
+                    "postalCode": "946",
+                    "addressCountry": "TW"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 22.006502218843156,
+                    "longitude": 120.74823574804584
+                },
+                "areaServed": [
+                    { "@type": "City", "name": "恆春鎮" },
+                    { "@type": "City", "name": "墾丁" }
+                ],
+                "openingHoursSpecification": {
+                    "@type": "OpeningHoursSpecification",
+                    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+                    "opens": "00:00",
+                    "closes": "23:59"
+                },
+                "hasMap": "https://maps.app.goo.gl/XRbx4wH3UAdnNWt29",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "telephone": "+886-906-375-675",
+                    "contactType": "customer service",
+                    "availableLanguage": ["Chinese", "English"]
+                },
+                "sameAs": ["https://lin.ee/5iAhM6D"]
+            }
+        </script>
     </head>
     <body class="bg-[#121212] overflow-x-hidden">
         <!-- Navigation -->
@@ -287,17 +350,9 @@
             </div>
         </nav>
 
-        <!-- Hero Section -->
         <section class="hero-bg h-screen w-full flex flex-col justify-center items-center text-center px-6">
             <div data-aos="fade-up" data-aos-duration="1000" class="max-w-full">
-                <!-- <img
-                    src="images/logo(png).png"
-                    alt="Hero Logo"
-                    class="h-24 md:h-80 mb-8 mx-auto"
-                /> -->
                 <div class="wrapper">
-                    <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
-                    <!--?xml version="1.0" encoding="UTF-8" standalone="no"?-->
                     <svg
                         width="60%"
                         height="100%"
@@ -466,7 +521,12 @@
                         </g>
                     </svg>
                 </div>
-                <h1 class="hero-title text-4xl md:text-6xl font-bold mb-4 tracking-tight">用現代工法 翻轉傳統工藝</h1>
+                <h1
+                    class="hero-title text-4xl md:text-6xl font-bold mb-4 tracking-tight"
+                    aria-label="崇維水電 SpringWatt - 恆春專業水電維修與冷氣清洗安裝服務"
+                >
+                    用現代工法 翻轉傳統工藝
+                </h1>
                 <p class="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-10 leading-relaxed">
                     崇維水電，恆春在地時刻待命，用勤懇守護您的每一處細節
                 </p>
@@ -500,7 +560,7 @@
                 <!-- Expanded Services Section -->
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">專業水電工程</h4>
+                        <h4 class="accent-text font-bold text-lg">恆春水電維修</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -514,7 +574,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">冷氣安裝清潔</h4>
+                        <h4 class="accent-text font-bold text-lg">冷氣清洗安裝</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -528,7 +588,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">室內配線</h4>
+                        <h4 class="accent-text font-bold text-lg">室內配線工程</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -556,7 +616,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">衛浴設備安裝</h4>
+                        <h4 class="accent-text font-bold text-lg">衛浴修繕安裝</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -570,7 +630,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">水塔清洗</h4>
+                        <h4 class="accent-text font-bold text-lg">居家水塔清洗</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -584,7 +644,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">給水與排水配管</h4>
+                        <h4 class="accent-text font-bold text-lg">給水排水工程</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -598,7 +658,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">監控弱電與網路</h4>
+                        <h4 class="accent-text font-bold text-lg">監控網路系統</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -612,7 +672,7 @@
 
                 <div class="service-card" onclick="this.classList.toggle('active')">
                     <div class="flex justify-between items-center">
-                        <h4 class="accent-text font-bold text-lg">淨水設備安裝</h4>
+                        <h4 class="accent-text font-bold text-lg">全戶淨水安裝</h4>
                         <i class="fas fa-chevron-down service-icon text-gray-500"></i>
                     </div>
                     <div class="service-content">
@@ -682,7 +742,7 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact" class="py-24 bg-[#1a1a1a] px-6">
+        <section id="contact" class="py-24 bg-[#1a1a1a] px-6 overflow-hidden"">
             <div class="max-w-6xl mx-auto text-center">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4" data-aos="fade-up">聯絡諮詢</h2>
                 <p class="text-gray-500 mb-12" data-aos="fade-up" data-aos-delay="100">
@@ -707,6 +767,11 @@
                         <div class="mt-4 text-left p-4 industrial-card">
                             <p class="text-sm text-gray-400">
                                 <i class="fas fa-map-marker-alt accent-text mr-2"></i> 崇維冷氣水電工程行(格力空調)
+                            </p>
+                            <!-- 新增電話 -->
+                            <p class="text-sm text-gray-400 mt-2">
+                                <i class="fas fa-phone-alt accent-text mr-2"></i>
+                                <a href="tel:+886906375675" class="hover:underline"> 0906-375-675 </a>
                             </p>
                         </div>
                     </div>
@@ -772,31 +837,31 @@
             // Gallery Data
             const galleryItems = [
                 {
-                    title: `冷氣清潔`,
+                    title: `恆春冷氣清洗`,
                     src: `images/Gallery/Air_conditioning_cleaning.png`,
                 },
                 {
-                    title: `陽台改造`,
+                    title: `陽台水電改造`,
                     src: `images/Gallery/balcony.png`,
                 },
                 {
-                    title: `浴室工程`,
+                    title: `浴室衛浴工程`,
                     src: `images/Gallery/bathroom.png`,
                 },
                 {
-                    title: `天花板工程`,
+                    title: `天花板配線施工`,
                     src: `images/Gallery/ceiling.png`,
                 },
                 {
-                    title: `造型吸頂燈`,
+                    title: `造型燈具安裝`,
                     src: `images/Gallery/ceiling_lamp.jpg`,
                 },
                 {
-                    title: `走廊燈光設計`,
+                    title: `走廊燈光規劃`,
                     src: `images/Gallery/corridor.png`,
                 },
                 {
-                    title: `電錶箱配置`,
+                    title: `電錶箱線路整理`,
                     src: `images/Gallery/electricity_meter.jpg`,
                 },
                 {
@@ -804,7 +869,7 @@
                     src: `images/Gallery/floor.jpg`,
                 },
                 {
-                    title: `裝飾燈具`,
+                    title: `室內燈具規劃`,
                     src: `images/Gallery/lamp_decoration.jpg`,
                 },
                 {
@@ -816,7 +881,7 @@
                     src: `images/Gallery/tea_room.jpg`,
                 },
                 {
-                    title: `防水施工`,
+                    title: `頂樓防水施工`,
                     src: `images/Gallery/water_proof.png`,
                 },
             ];
@@ -834,7 +899,7 @@
                 div.setAttribute(`data-aos`, `fade-up`);
                 div.setAttribute(`data-aos-delay`, index * 50);
                 div.innerHTML = `
-                <img src="${item.src}" alt="${item.title}" class="w-full h-64 object-cover">
+                <img src="${item.src}" alt="崇維水電服務： ${item.title}" class="w-full h-64 object-cover">
                 <div class="gallery-overlay">
                     <span class="text-white font-bold text-lg">${item.title}</span>
                 </div>
